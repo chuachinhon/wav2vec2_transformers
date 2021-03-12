@@ -1,4 +1,21 @@
-# TRANSCRIBING POETRY AND SPEECHES WITH WAV2VEC2 
+# PART 2: CHAIN LINKING AUDIO-TO-TEXT NLP TASKS
+![](https://pbs.twimg.com/media/EwQH8xLUYAc2w7E?format=jpg&name=large)
+
+In [notebook3.0](https://github.com/chuachinhon/wav2vec2_transformers/blob/main/notebooks/3.0_transcribe_translate_sentiment_analysis.ipynb), I demo a simple workflow to:
+
+- transcribe a longish English speech (~24 minutes)
+- translate it into Chinese
+- plot the 'sentiment structure' of the Engish speech.
+
+I used Biden's [first prime time speech](https://www.youtube.com/watch?v=JYBatFW-BP4) on Mar 11/12 2021 (depending on which time zone you are in). The audio clip was split in 71 20-second clips.
+
+Results are a bit rough, but it's interesting that you can do this in 1 go (and in 1 notebook) these days. Future possibilities are interesting to say the least.
+
+
+---
+
+
+# PART 1: TRANSCRIBING POETRY AND SPEECHES WITH WAV2VEC2 
 ![](https://cdn-images-1.medium.com/max/1600/1*KVYnVHPhJlY9SS7XtFKUQw.png)
 
 This series of notebooks is aimed at helping fellow NLP enthusiasts experiment with the Wav2Vec2 model by FB and implemented in transformers by Hugging Face.
