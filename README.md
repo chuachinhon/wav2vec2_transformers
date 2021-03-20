@@ -1,7 +1,7 @@
 # PART 2: CHAIN LINKING AUDIO-TO-TEXT NLP TASKS
 
 # 2A: TRANSCRIBE-TRANSLATE-SENTIMENT-ANALYSIS
-![](https://cdn-images-1.medium.com/max/2400/1*xq91N5qzjsLIS9m921E6nw.png)
+![](https://miro.medium.com/max/4800/1*xq91N5qzjsLIS9m921E6nw.png)
 
 In [notebook3.0](https://github.com/chuachinhon/wav2vec2_transformers/blob/main/notebooks/3.0_transcribe_translate_sentiment_analysis.ipynb), I demo a simple workflow to:
 
@@ -28,6 +28,11 @@ In [notebook3.1](https://github.com/chuachinhon/wav2vec2_transformers/blob/main/
 Summarisation is one of the toughest NLP tasks to get right, so I used a shorter audio file - a 4-minute clip by [Singapore Prime Minister Lee Hsien Loong talking about populism](https://www.youtube.com/watch?v=4bUl9R2N90A). 
 
 
+# MEDIUM
+
+A short write up on the results in this [Medium post](https://towardsdatascience.com/chain-linking-nlp-tasks-with-wav2vec2-transformers-7297181db3a7).
+
+
 ---
 
 
@@ -50,5 +55,8 @@ I was curious to see how well the model would perform for short and long audio c
  
 The necessary audio files are included in this repo. If you want to use your own clips, make sure to downsample them to 16kHz.
 
+# MEDIUM
+
+A short write up on the results in this [Medium post](https://towardsdatascience.com/transcribing-poetry-and-speeches-with-wav2vec2-2658c6510f06).
 
 ---
